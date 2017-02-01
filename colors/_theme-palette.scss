@@ -1,0 +1,40 @@
+// =============================================================================
+//      THEME PALATTE
+//      theme specific variables set to descriptive color variables
+// =============================================================================
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Text Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-text-dark: $blackboard;
+$color-text-light: $lilia;
+
+$color-link-dark: $blackboard;
+$color-link-light: $aqua;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Standard Interface Element Feedback Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-feedback: $frost;
+$color-feedback-em: TBD;
+$color-feedback-positive: $minty;
+$color-feedback-positive-em: TBD;
+$color-feedback-warning: $linen;
+$color-feedback-warning-em: $mango;
+$color-feedback-negative: $misty-rose;
+$color-feedback-negative-em: $watermelon;
+
+$color-action: $lilia;
+$color-action-hover: $lilia-dark;
+$color-action-active: $lilia-darkest;
+$color-action-primary: TBD;
+$color-action-primary-hover: TBD;
+$color-action-primary-active: TBD;
+$color-action-positive: $pine;
+$color-action-positive-hover: $pine-dark;
+$color-action-positive-active: $pine-darkest;
+$color-action-negative: $apple;
+$color-action-negative-hover: $apple-dark;
+$color-action-negative-active: $apple-darkest;
