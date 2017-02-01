@@ -3,36 +3,44 @@
 //      theme specific variables set to descriptive color variables
 // =============================================================================
 
+$color-border-dark: $blackboard !default;
+$color-border-light: $lilia !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Background Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-background: $indigo !default;
+$color-background-dark: $blackboard !default;
+$color-background-em: $lilia !default;
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Text Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-text-dark: $blackboard;
-$color-text-light: $lilia;
-
-$color-link-dark: $blackboard;
-$color-link-light: $aqua;
+$color-text-dark: $blackboard !default;
+$color-text-light: $lilia !default;
+$color-link-dark: $blackboard !default;
+$color-link-light: $aqua !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Standard Interface Element Feedback Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-feedback: $frost;
+$color-feedback: $frost !default;
 $color-feedback-em: TBD;
-$color-feedback-positive: $minty;
+$color-feedback-positive: $minty !default;
 $color-feedback-positive-em: TBD;
-$color-feedback-warning: $linen;
-$color-feedback-warning-em: $mango;
-$color-feedback-negative: $misty-rose;
-$color-feedback-negative-em: $watermelon;
+$color-feedback-warning: $linen !default;
+$color-feedback-warning-em: $mango !default;
+$color-feedback-negative: $misty-rose !default;
+$color-feedback-negative-em: $watermelon !default;
 
-$color-action: $lilia;
-$color-action-hover: $lilia-dark;
-$color-action-active: $lilia-darkest;
+$color-action: $lilia !default;
+$color-action-hover: $lilia-dark !default;
+$color-action-active: $lilia-darkest !default;
 $color-action-primary: TBD;
 $color-action-primary-hover: TBD;
 $color-action-primary-active: TBD;
-$color-action-positive: $pine;
-$color-action-positive-hover: $pine-dark;
-$color-action-positive-active: $pine-darkest;
-$color-action-negative: $apple;
-$color-action-negative-hover: $apple-dark;
-$color-action-negative-active: $apple-darkest;
+$color-action-positive: $pine !default;
+$color-action-positive-hover: $pine-dark !default;
+$color-action-positive-active: $pine-darkest !default;
+$color-action-negative: $apple !default;
+$color-action-negative-hover: $apple-dark !default;
+$color-action-negative-active: $apple-darkest !default;

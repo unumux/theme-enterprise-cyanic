@@ -1,0 +1,22 @@
+// =============================================================================
+//      COMPONENT PALETTE
+// =============================================================================
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      CLICKABLES
+//      does not include anchors
+//      includes tabs, dropdowns, buttons, range slider handles
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// >>>>>>>>> Default Clickables
+$component-clickable-background-color: $color-action !default;
+$component-clickable-border-color: $color-border-dark !default;
+$component-clickable-text-color:  $color-text-dark !default;
+
+$component-clickable-hover-background-color: $color-action-hover !default;
+$component-clickable-hover-border-color: $color-border-dark !default;
+$component-clickable-hover-text-color: $color-text-dark !default;
+
+$component-clickable-active-background-color: $color-action-active !default;
+$component-clickable-active-border-color: $color-border-dark !default;
+$component-clickable-active-text-color: $color-text-dark !default;
