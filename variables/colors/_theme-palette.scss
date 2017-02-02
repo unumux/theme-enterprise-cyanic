@@ -2,9 +2,14 @@
 //      THEME PALATTE
 //      theme specific variables set to descriptive color variables
 // =============================================================================
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Initial Priorities
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-primary: TBD;
+$color-secondary: TBD;
+$color-accent: TBD;
+$color-base: TBD;
 
-$color-border-dark: $blackboard !default;
-$color-border-light: $lilia !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Background Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -20,8 +25,20 @@ $color-text-light: $lilia !default;
 $color-link-dark: $blackboard !default;
 $color-link-light: $aqua !default;
 
+
+
+// =============================================================================
+//      Standard Interface Elements Feedback Specific
+// =============================================================================
+
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      Standard Interface Element Feedback Specific
+//      Border/Divider Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-border-dark: $blackboard !default;
+$color-border-light: $lilia !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Feedback Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $color-feedback: $frost !default;
 $color-feedback-em: TBD;
@@ -32,6 +49,9 @@ $color-feedback-warning-em: $mango !default;
 $color-feedback-negative: $misty-rose !default;
 $color-feedback-negative-em: $watermelon !default;
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Action Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $color-action: $lilia !default;
 $color-action-hover: $lilia-dark !default;
 $color-action-active: $lilia-darkest !default;
