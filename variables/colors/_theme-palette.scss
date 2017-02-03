@@ -13,54 +13,48 @@ $color-base: TBD;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Background Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-background: $indigo !default;
-$color-background-dark: $blackboard !default;
-$color-background-em: $lilia !default;
+$color-background: $color-indigo !default;
+$color-background-dark: $color-blackboard !default;
+$color-background-em: $color-lilia !default;
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Text Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-text-dark: $blackboard !default;
-$color-text-light: $lilia !default;
-$color-link-dark: $blackboard !default;
-$color-link-light: $aqua !default;
-
-
-
-// =============================================================================
-//      Standard Interface Elements Feedback Specific
-// =============================================================================
+$color-text-dark: $color-blackboard !default;
+$color-text-light: $color-lilia !default;
+$color-link-dark: $color-blackboard !default;
+$color-link-light: $color-aqua !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Border/Divider Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-border-dark: $blackboard !default;
-$color-border-light: $lilia !default;
+$color-border-dark: $color-blackboard !default;
+$color-border-light: $color-lilia !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Feedback Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-feedback: $frost !default;
-$color-feedback-em: TBD;
-$color-feedback-positive: $minty !default;
-$color-feedback-positive-em: TBD;
-$color-feedback-warning: $linen !default;
-$color-feedback-warning-em: $mango !default;
-$color-feedback-negative: $misty-rose !default;
-$color-feedback-negative-em: $watermelon !default;
+$color-feedback: $color-frost !default;
+$color-feedback-em: $color-ice;
+$color-feedback-positive: $color-wintergreen !default;
+$color-feedback-positive-em: $color-minty;
+$color-feedback-warning: $color-linen !default;
+$color-feedback-warning-em: $color-mango !default;
+$color-feedback-negative: $color-misty-rose !default;
+$color-feedback-negative-em: $color-watermelon !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Action Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-action: $lilia !default;
-$color-action-hover: $lilia-dark !default;
-$color-action-active: $lilia-darkest !default;
+$color-action: $color-lilia !default;
+$color-action-hover: $color-lilia-dark !default;
+$color-action-active: $color-lilia-darkest !default;
 $color-action-primary: TBD;
 $color-action-primary-hover: TBD;
 $color-action-primary-active: TBD;
-$color-action-positive: $pine !default;
-$color-action-positive-hover: $pine-dark !default;
-$color-action-positive-active: $pine-darkest !default;
+$color-action-positive: $color-pine !default;
+$color-action-positive-hover: $color-pine-dark !default;
+$color-action-positive-active: $color-pine-darkest !default;
 $color-action-negative: $apple !default;
-$color-action-negative-hover: $apple-dark !default;
-$color-action-negative-active: $apple-darkest !default;
+$color-action-negative-hover: $color-apple-dark !default;
+$color-action-negative-active: $color-apple-darkest !default;
