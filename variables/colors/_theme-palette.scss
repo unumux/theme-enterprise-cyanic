@@ -5,10 +5,10 @@
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Initial Priorities
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-primary: TBD;
-$color-secondary: TBD;
-$color-accent: TBD;
-$color-base: TBD;
+// $color-primary: TBD;
+// $color-secondary: TBD;
+// $color-accent: TBD;
+// $color-base: TBD;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Background Specific
@@ -22,6 +22,8 @@ $color-background-em: $color-lilia !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $color-text-dark: $color-blackboard !default;
 $color-text-light: $color-lilia !default;
+$color-text-disabled: $color-ash !default;
+
 $color-link-dark: $color-blackboard !default;
 $color-link-light: $color-aqua !default;
 
@@ -49,12 +51,19 @@ $color-feedback-negative-em: $color-watermelon !default;
 $color-action: $color-lilia !default;
 $color-action-hover: $color-lilia-dark !default;
 $color-action-active: $color-lilia-darkest !default;
-$color-action-primary: TBD;
-$color-action-primary-hover: TBD;
-$color-action-primary-active: TBD;
+
+$color-action-primary: $color-aqua;
+$color-action-primary-hover: $color-aqua-dark;
+$color-action-primary-active: $color-aqua-darkest;
+
+$color-action-disabled: $color-lilia;
+$color-action-disabled-hover: $color-lilia;
+$color-action-disabled-active: $color-lilia;
+
 $color-action-positive: $color-pine !default;
 $color-action-positive-hover: $color-pine-dark !default;
 $color-action-positive-active: $color-pine-darkest !default;
-$color-action-negative: $apple !default;
+
+$color-action-negative: $color-apple !default;
 $color-action-negative-hover: $color-apple-dark !default;
 $color-action-negative-active: $color-apple-darkest !default;
