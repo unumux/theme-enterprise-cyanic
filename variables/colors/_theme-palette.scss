@@ -10,22 +10,28 @@
 // $color-accent: TBD;
 // $color-base: TBD;
 
+
+//-primary
+//-secondary
+//-em
+//-inverse
+
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Background Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-background: $color-indigo !default;
-$color-background-dark: $color-blackboard !default;
+$color-background-primary: $color-indigo !default;
+$color-background-secondary: $color-blackboard !default;
 $color-background-em: $color-lilia !default;
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Text Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-text-dark: $color-blackboard !default;
-$color-text-light: $color-lilia !default;
+$color-text: $color-lilia !default;
+$color-text-inverse: $color-blackboard !default;
 $color-text-disabled: $color-ash !default;
 
-$color-link-dark: $color-blackboard !default;
-$color-link-light: $color-aqua !default;
+$color-link: $color-aqua !default;
+$color-link-inverse: $color-blackboard !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Border/Divider Specific
