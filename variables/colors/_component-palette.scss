@@ -85,7 +85,25 @@ $component-clickable-negative-text-color-active: $color-text-dark !default;
 $component-overlay-background-color: rgba($color-background-secondary, 0.5) !default;
 
 
-
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      PANELS
+//      used by modals, dialogs, inline alerts and global alerts
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//
+// >>>>>>>>> Default Panel
+$component-panel-background-color: $color-background-em !default;
+//
+// >>>>>>>>> Info Panel
+$component-panel-info-background-color: $color-feedback !default;
+//
+// >>>>>>>>> Positive Panel
+$component-panel-positive-background-color: $color-feedback-postive !default;
+//
+// >>>>>>>>> Warning Panel
+$component-panel-warning-background-color: $color-feedback-warning !default;
+//
+// >>>>>>>>> Negative Panel
+$component-panel-negative-background-color: $color-feedback-negative !default;
 
 
 // generic component name options
