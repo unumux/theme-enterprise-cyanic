@@ -1,0 +1,70 @@
+// =============================================================================
+//      COMPONENTS
+// =============================================================================
+
+@import "clickables";
+@import "panels";
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      OVERLAY
+//      used by modals and dialogs... and more things in the future
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//
+// >>>>>>>>> Default Overlay
+$component-overlay-background-color: rgba($color-background-secondary, 0.5) !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// NOTES
+// generic component name options
+// panel
+// box
+// pop-up
+// overlay
+
+// page-header/footer, persistent, expected, standard, global, reoccuring, consistent 
+
+// types: primary, secondary, postive, negative, disabled, em, inverse
+// states: default, hover, active, visited
+
+// do we need wide prioritizing variables
+// $component-primary-background-color
+// $component-secondary-background-color
+// $component-em-background-color
+
+//From JQUERY Theme Roller
+// font settings : family, weight, size(em)
+// corner radius : corners(px)
+// header/toolbar : background color, background texture, border color, text color, icon color
+// content : background color, background texture, border color, text color, icon color
+// clickable default state: background color, background texture, border color, text color, icon color
+// clickable hover state: background color, background texture, border color, text color, icon color
+// clickable active state: background color, background texture, border color, text color, icon color
+// highlight : background color, background texture, border color, text color, icon color
+// error: background color, background texture, border color, text color, icon color
+// modal screen for overlays : background color, background texture, overlay opacity
+// drop shadows : background color, background texture, shadow opacity, shadow thickness, top offset, left offset, corners(px)
+// background color - either white or reverse 
