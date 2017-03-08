@@ -18,62 +18,62 @@ $component-clickable-background-color: $color-action !default;
 $component-clickable-border-color: $color-border-dark !default;
 $component-clickable-text-color:  $color-text-dark !default;
 
-$component-clickable-hover-background-color: $color-action-hover !default;
-$component-clickable-hover-border-color: $color-border-dark !default;
-$component-clickable-hover-text-color: $color-text-dark !default;
+$component-clickable-background-color-hover: $color-action-hover !default;
+$component-clickable-border-color-hover: $color-border-dark !default;
+$component-clickable-text-color-hover: $color-text-dark !default;
 
-$component-clickable-active-background-color: $color-action-active !default;
-$component-clickable-active-border-color: $color-border-dark !default;
-$component-clickable-active-text-color: $color-text-dark !default;
+$component-clickable-background-color-active: $color-action-active !default;
+$component-clickable-border-color-active: $color-border-dark !default;
+$component-clickable-text-color-active: $color-text-dark !default;
 
 // >>>>>>>>> Primary Clickables
-$component-primary-clickable-background-color: $color-action-primary !default;
-$component-primary-clickable-text-color:  $color-text-dark !default;
+$component-clickable-primary-background-color: $color-action-primary !default;
+$component-clickable-primary-text-color:  $color-text-dark !default;
 
-$component-primary-clickable-hover-background-color: $color-action-primary-hover !default;
-$component-primary-clickable-hover-text-color: $color-text-dark !default;
+$component-clickable-primary-hover-background-color: $color-action-primary-hover !default;
+$component-clickable-primary-hover-text-color: $color-text-dark !default;
 
-$component-primary-clickable-active-background-color: $color-action-primary-active !default;
-$component-primary-clickable-active-text-color: $color-text-dark !default;
+$component-clickable-primary-active-background-color: $color-action-primary-active !default;
+$component-clickable-primary-active-text-color: $color-text-dark !default;
 
 // >>>>>>>>> Disabled Clickables
-$component-disabled-clickable-background-color: $color-action-disabled !default;
-$component-disabled-clickable-border-color: $color-border-dark !default;
-$component-disabled-clickable-text-color:  $color-text-disabled !default;
+$component-clickable-disabled-background-color: $color-action-disabled !default;
+$component-clickable-disabled-border-color: $color-border-dark !default;
+$component-clickable-disabled-text-color:  $color-text-disabled !default;
 
-$component-disabled-clickable-hover-background-color: $color-action-disabled-hover !default;
-$component-disabled-clickable-hover-border-color: $color-border-dark !default;
-$component-disabled-clickable-hover-text-color: $color-text-disabled !default;
+$component-clickable-disabled-background-color-hover: $color-action-disabled-hover !default;
+$component-clickable-disabled-border-color-hover: $color-border-dark !default;
+$component-clickable-disabled-text-color-hover: $color-text-disabled !default;
 
-$component-disabled-clickable-active-background-color: $color-action-disabled-active !default;
-$component-disabled-clickable-active-border-color: $color-border-dark !default;
-$component-disabled-clickable-active-text-color: $color-text-disabled !default;
+$component-clickable-disabled-background-color-active: $color-action-disabled-active !default;
+$component-clickable-disabled-border-color-active: $color-border-dark !default;
+$component-clickable-disabled-text-color-active: $color-text-disabled !default;
 
 // >>>>>>>>> Positive Clickables
-$component-positive-clickable-background-color: $color-action-positive !default;
-$component-positive-clickable-border-color: $color-border-dark !default;
-$component-positive-clickable-text-color:  $color-text-dark !default;
+$component-clickable-positive-background-color: $color-action-positive !default;
+$component-clickable-positive-border-color: $color-border-dark !default;
+$component-clickable-positive-text-color:  $color-text-dark !default;
 
-$component-positive-clickable-hover-background-color: $color-action-positive-hover !default;
-$component-positive-clickable-hover-border-color: $color-border-dark !default;
-$component-positive-clickable-hover-text-color: $color-text-dark !default;
+$component-clickable-positive-hover-background-color: $color-action-positive-hover !default;
+$component-clickable-positive-hover-border-color: $color-border-dark !default;
+$component-clickable-positive-hover-text-color: $color-text-dark !default;
 
-$component-positive-clickable-active-background-color: $color-action-positive-active !default;
-$component-positive-clickable-active-border-color: $color-border-dark !default;
-$component-positive-clickable-active-text-color: $color-text-dark !default;
+$component-clickable-positive-active-background-color: $color-action-positive-active !default;
+$component-clickable-positive-active-border-color: $color-border-dark !default;
+$component-clickable-positive-active-text-color: $color-text-dark !default;
 
 // >>>>>>>>> Negative Clickables
-$component-negative-clickable-background-color: $color-action-negative !default;
-$component-negative-clickable-border-color: $color-border-dark !default;
-$component-negative-clickable-text-color:  $color-text-dark !default;
+$component-clickable-negative-background-color: $color-action-negative !default;
+$component-clickable-negative-border-color: $color-border-dark !default;
+$component-clickable-negative-text-color:  $color-text-dark !default;
 
-$component-negative-clickable-hover-background-color: $color-action-negative-hover !default;
-$component-negative-clickable-hover-border-color: $color-border-dark !default;
-$component-negative-clickable-hover-text-color: $color-text-dark !default;
+$component-clickable-negative-background-color-hover: $color-action-negative-hover !default;
+$component-clickable-negative-border-color-hover: $color-border-dark !default;
+$component-clickable-negative-text-color-hover: $color-text-dark !default;
 
-$component-negative-clickable-active-background-color: $color-action-negative-active !default;
-$component-negative-clickable-active-border-color: $color-border-dark !default;
-$component-negative-clickable-active-text-color: $color-text-dark !default;
+$component-clickable-negative-background-color-active: $color-action-negative-active !default;
+$component-clickable-negative-border-color-active: $color-border-dark !default;
+$component-clickable-negative-text-color-active: $color-text-dark !default;
 
 
 // generic component name options
