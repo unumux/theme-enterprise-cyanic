@@ -76,6 +76,20 @@ $component-clickable-negative-border-color-active: $color-border-dark !default;
 $component-clickable-negative-text-color-active: $color-text-dark !default;
 
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      OVERLAY
+//      used by modals and dialogs... and more things in the future
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//
+// >>>>>>>>> Default Overlay
+$component-overlay-background-color: $color-background-secondary !default; //set equal to darkest bg color after fixing color palette
+$component-overlay-opacity: 0.5;
+
+
+
+
+
+
 // generic component name options
 // panel
 // box
