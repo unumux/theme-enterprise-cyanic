@@ -82,9 +82,7 @@ $component-clickable-negative-text-color-active: $color-text-dark !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //
 // >>>>>>>>> Default Overlay
-$component-overlay-background-color: $color-background-secondary !default; //set equal to darkest bg color after fixing color palette
-$component-overlay-opacity: 0.5;
-
+$component-overlay-background-color: rgba($color-background-secondary, 0.5) !default;
 
 
 
