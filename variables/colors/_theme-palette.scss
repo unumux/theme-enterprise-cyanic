@@ -19,68 +19,64 @@
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Background Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-background-primary: $color-indigo !default;
-$color-background-secondary: $color-blackboard !default;
-$color-background-em: $color-lilia !default;
+$color-background-primary: $color-silver-blue !default;
+$color-background-secondary: $color-silver-black !default;
+$color-background-em: $color-silver-darkest !default;
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Text Specific
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-text: $color-lilia !default;
-$color-text-inverse: $color-blackboard !default;
-$color-text-disabled: $color-ash !default;
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Text
+$color-text: $color-white !default;
+$color-text-inverse: $color-silver-black !default; //used for highlighted text, and text on the alert/feedback colors
+$color-text-TBD: $color-silver !default; //used for specialized inlines like code, inline quotes, small
+$color-text-disabled: $color-silver-white !default;
 
+// Links
 $color-link: $color-aqua !default;
-$color-link-hover: tbd;
-$color-link-visited: tbd;
-$color-link-active: tbd;
-$color-link-inverse: $color-blackboard !default;
+$color-link-hover: $color-aqua !default;
+$color-link-active: tbd !default;
+$color-link-visited: tbd !default;
+
+$color-link-inverse: $color-silver !default;
+$color-link-inverse-hover: tbd !default;
+$color-link-inverse-active: tbd !default;
+$color-link-inverse-visited: tbd !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Border/Divider Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-border: $color-lilia !default;
-$color-border-inverse: $color-blackboard !default;
-$color-border-disabled: $color-ash !default;
-
-// do we need a border variable for active links - see the primary-nav and the secondary-nav design
+$color-border: $color-white !default;
+$color-border-inverse: $color-aqua !default;
+//$color-border-disabled: $color-ash !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Feedback Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-feedback: $color-frost !default;
-$color-feedback-em: $color-ice;
-
-$color-feedback-positive: $color-wintergreen !default;
-$color-feedback-positive-em: $color-minty;
-
-$color-feedback-warning: $color-linen !default;
-$color-feedback-warning-em: $color-mango !default;
-
-$color-feedback-negative: $color-misty-rose !default;
-$color-feedback-negative-em: $color-watermelon !default;
+$color-feedback: $color-sky-lightest !default;
+$color-feedback-positive: $color-fern-lightest !default;
+$color-feedback-warning: $color-mango-lightest !default;
+$color-feedback-negative: $color-salmon-lightest !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Action Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-action: $color-lilia !default;
-$color-action-hover: $color-lilia-dark !default;
-$color-action-active: $color-lilia-darkest !default;
+$color-action: $color-silver-dark !default; //used for default and focus states
+$color-action-hover: $color-silver-darker !default;
+$color-action-active: $color-silver-darkest !default;
+$color-action-disabled: $color-silver-darkest !default;
 
-//do we need a color-action-visited variable?????? If so what is the design for it? We'd recommend that visited is the same as the active options on the buttons design for example.
+$color-action-primary: $color-aqua !default; //used for primary default and focus states
+$color-action-primary-hover: $color-aqua-dark !default;
+$color-action-primary-active: $color-aqua-darkest !default;
+$color-action-primary-disabled: $color-silver-darkest !default;
 
-$color-action-primary: $color-aqua;
-$color-action-primary-hover: $color-aqua-dark;
-$color-action-primary-active: $color-aqua-darkest;
-
-$color-action-disabled: $color-lilia;
-$color-action-disabled-hover: $color-lilia;
-$color-action-disabled-active: $color-lilia;
-
-$color-action-positive: $color-pine !default;
+$color-action-positive: $color-pine !default; //used for positive default and focus states
 $color-action-positive-hover: $color-pine-dark !default;
 $color-action-positive-active: $color-pine-darkest !default;
+$color-action-positive-disabled: $color-silver-darkest !default;
 
-$color-action-negative: $color-apple !default;
+$color-action-negative: $color-apple !default; //used for negative default and focus states
 $color-action-negative-hover: $color-apple-dark !default;
 $color-action-negative-active: $color-apple-darkest !default;
+$color-action-negative-disabled: $color-silver-darkest !default;
