@@ -1,33 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-$font-family-base: 'Open Sans', 'helvetica', 'arial', 'sans-serif' !default;
+$font-family-primary: 'Open Sans', 'helvetica', 'arial', 'sans-serif' !default;
 $font-family-secondary: 'Open Sans', 'helvetica', 'arial', 'sans-serif' !default;
+$font-family-monospace: 'Source Code Pro', monospace !default;
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("#{$font-folder}/OpenSans-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
+$text-style-1: (
+  family: $font-family-primary,
+  desktop-size: 34px,
+  mobile-size: 28px,
+  weight: 600
+);
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("#{$font-folder}/OpenSans-Italic.ttf") format("truetype");
-    font-weight: 400;
-    font-style: italic;
-}
+$text-style-2: (
+  family: $font-family-primary,
+  desktop-size: 22px,
+  mobile-size: 21px,
+  weight: 600
+);
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("#{$font-folder}/OpenSans-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
+$text-style-3: (
+  family: $font-family-primary,
+  desktop-size: 20px,
+  mobile-size: 20px,
+  weight: 600
+);
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("#{$font-folder}/OpenSans-BoldItalic.ttf") format("truetype");
-    font-weight: 700;
-    font-style: italic;
-}
+$text-style-4: (
+  family: $font-family-primary,
+  desktop-size: 18px,
+  mobile-size: 17px,
+  weight: 600
+);
 
+$text-style-5: (
+  family: $font-family-primary,
+  desktop-size: 16px,
+  mobile-size: 16px,
+  weight: 400
+);
+
+$text-style-6: (
+  family: $font-family-primary,
+  desktop-size: 14px,
+  mobile-size: 14px,
+  weight: 400
+);

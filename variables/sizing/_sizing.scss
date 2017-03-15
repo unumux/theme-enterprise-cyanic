@@ -1,5 +1,20 @@
-// Do we need to abstract sizing variables the same as color variables with a file hierarchy?
+$breakpoints: (
+    small: 320px,
+    medium: 600px,
+    large: 768px
+);
 
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        $value: map-get($breakpoints, $breakpoint);
+
+        @media screen and (min-width: $value) {
+            @content;
+        }
+    }
+
+    @warn "Unknown `#{$breakpoint}` in $breakpoints map";
+}
 
 $component-border-radius: 4px;
 $component-border-radius-small: 3px;
