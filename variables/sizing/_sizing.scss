@@ -4,18 +4,6 @@ $breakpoints: (
     large: 768px
 );
 
-@mixin respond-to($breakpoint) {
-    @if map-has-key($breakpoints, $breakpoint) {
-        $value: map-get($breakpoints, $breakpoint);
-
-        @media screen and (min-width: $value) {
-            @content;
-        }
-    }
-
-    @warn "Unknown `#{$breakpoint}` in $breakpoints map";
-}
-
 $component-border-radius: 4px;
 $component-border-radius-small: 3px;
 $component-border-radius-large: 5px;
