@@ -1,11 +1,17 @@
-$breakpoints: (
-    small: 320px,
-    medium: 600px,
-    large: 768px
-);
+// VARIABLES FOR SIZING COMPONENTS AND COMPONENT PARTS
 
+// Borders
 $component-border-radius: 4px;
 $component-border-radius-small: 3px;
 $component-border-radius-large: 5px;
 
 $component-border-width: 1px;
+
+
+// For media queries
+// content width plus gutters on each side
+$breakpoints: (
+    small: 350px,
+    medium: 828px,
+    large: 1230px
+);

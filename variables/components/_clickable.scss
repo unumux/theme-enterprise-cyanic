@@ -33,22 +33,9 @@ $component-clickable-primary-text-color-active: $color-text !default;
 $component-clickable-primary-background-color-disabled: $color-action-primary-disabled !default;
 $component-clickable-primary-text-color-disabled: $color-text-disabled !default;
 
-// // >>>>>>>>> Disabled Clickables
-// $component-clickable-disabled-background-color: $color-action-disabled !default;
-// $component-clickable-disabled-border-color: $color-border-dark !default;
-// $component-clickable-disabled-text-color:  $color-text-disabled !default;
-
-// $component-clickable-disabled-background-color-hover: $color-action-disabled-hover !default;
-// $component-clickable-disabled-border-color-hover: $color-border-dark !default;
-// $component-clickable-disabled-text-color-hover: $color-text-disabled !default;
-
-// $component-clickable-disabled-background-color-active: $color-action-disabled-active !default;
-// $component-clickable-disabled-border-color-active: $color-border-dark !default;
-// $component-clickable-disabled-text-color-active: $color-text-disabled !default;
-
 // >>>>>>>>> Positive Clickables
 $component-clickable-positive-background-color: $color-action-positive !default;
-$component-clickable-positive-text-color:  $color-text-dark !default;
+$component-clickable-positive-text-color:  $color-text !default;
 
 $component-clickable-positive-background-color-hover: $color-action-positive-hover !default;
 $component-clickable-positive-text-color-hover: $color-text !default;
