@@ -1,41 +1,100 @@
 $icon-menu: (
-    icon: url("blah:"),
+    icon: url("../../icons/menu.svg"),
     height: 20px,
     margin: 5px,
     width: 20px
 );
 
+$icon-menu-inverse: (
+    icon: url("../../icons/menu-inverse.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+$icon-menu-close: (
+    icon: url("../../icons/menu-close.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+$icon-menu-close-inverse: (
+    icon: url("../../icons/menu-close-inverse.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+
 $icon-close: (
-    icon: url("blah:"),
+    icon: url("../../icons/close.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+$icon-close-inverse: (
+    icon: url("../../icons/close-inverse.svg"),
     height: 20px,
     margin: 5px,
     width: 20px
 );
 
 $icon-info: (
-    icon: url("blah:"),
+    icon: url("../../icons/info.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+$icon-info-inverse: (
+    icon: url("../../icons/info-inverse.svg"),
     height: 20px,
     margin: 5px,
     width: 20px
 );
 
 $icon-success: (
-    icon: url("blah:"),
+    icon: url("../../icons/success.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+$icon-success-inverse: (
+    icon: url("../../icons/success-inverse.svg"),
     height: 20px,
     margin: 5px,
     width: 20px
 );
 
 $icon-warning: (
-    icon: url("blah:"),
+    icon: url("../../icons/warning.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+$icon-warning-inverse: (
+    icon: url("../../icons/warning-inverse.svg"),
     height: 20px,
     margin: 5px,
     width: 20px
 );
 
 $icon-error: (
-    icon: url("blah:"),
+    icon: url("../../icons/error.svg"),
     height: 20px,
     margin: 5px,
     width: 20px
 );
+
+$icon-error-inverse: (
+    icon: url("../../icons/error-inverse.svg"),
+    height: 20px,
+    margin: 5px,
+    width: 20px
+);
+
+
