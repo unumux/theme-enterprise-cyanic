@@ -39,9 +39,15 @@ $color-link-hover: $color-aqua !default;
 $color-link-active: red !default;
 $color-link-visited: red !default;
 
-$color-link-inverse: $color-silver !default;
-$color-link-inverse-hover: tbd !default;
-$color-link-inverse-active: tbd !default;
+$color-link-inverse: $color-white !default;
+$color-link-inverse-background: $color-aqua-darker !default;
+
+$color-link-inverse-hover: $color-white !default;
+$color-link-inverse-hover-background: $color-silver-darker !default;
+
+$color-link-inverse-active: $color-white !default;
+$color-link-inverse-active-background: $color-silver-darkest !default;
+
 $color-link-inverse-visited: tbd !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
