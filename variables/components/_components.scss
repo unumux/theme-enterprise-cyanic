@@ -2,6 +2,7 @@
 //      COMPONENTS
 // =============================================================================
 //
+@import "text-styles";
 @import "clickable";
 @import "panel";
 
@@ -24,97 +25,11 @@ $component-cursor-disabled: not-allowed !default; //is this helpful?
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $component-body-background-color: $color-background-primary !default;
 //
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      BODY TEXT
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//
-// >>>>>>>>> Heading Text
-$text-style-heading-1: (
-  family: $font-family-primary,
-  desktop-size: 34px,
-  mobile-size: 28px,
-  weight: 600,
-  transform: uppercase
-) !default;
-
-$text-style-heading-2: (
-  family: $font-family-primary,
-  desktop-size: 26px,
-  mobile-size: 24px,
-  weight: 600,
-  transform: uppercase
-) !default;
-
-$text-style-heading-3: (
-  family: $font-family-primary,
-  desktop-size: 22px,
-  mobile-size: 20px,
-  weight: 600,
-  transform: uppercase
-) !default;
-
-$text-style-heading-4: (
-  family: $font-family-primary,
-  desktop-size: 18px,
-  mobile-size: 17px,
-  weight: 600,
-  transform: uppercase
-) !default;
-
-$text-style-heading-5: (
-  family: $font-family-primary,
-  desktop-size: 16px,
-  mobile-size: 16px,
-  weight: 600,
-  transform: uppercase
-) !default;
-
-$text-style-heading-6: (
-  family: $font-family-primary,
-  desktop-size: 14px,
-  mobile-size: 14px,
-  weight: 600,
-  transform: uppercase
-) !default;
-
-// >>>>>>>>> Standard Content Text
-$text-style-content-1: (
-  family: $font-family-primary,
-  desktop-size: 16px,
-  mobile-size: 16px,
-  weight: 400
-) !default;
-
-$text-style-content-2: (
-  family: $font-family-primary,
-  desktop-size: 14px,
-  mobile-size: 14px,
-  weight: 400
-) !default;
-
-$text-style-content-3: (
-  family: $font-family-primary,
-  desktop-size: 11px,
-  mobile-size: 11px,
-  weight: 400
-) !default;
-//
-// 
-$component-body-text-color: $color-text-primary !default;
-$component-body-text-color-inverse: $color-text-inverse !default;
-$component-body-style-default: $text-style-content-1 !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      BODY LINKS
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $component-link-color: $color-link !default;
-
-
-
-
-
-
-
 
 
 
