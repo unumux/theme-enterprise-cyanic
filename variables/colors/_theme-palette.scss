@@ -70,21 +70,25 @@ $color-feedback-negative: $color-salmon-lightest !default;
 //      Action Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $color-action: $color-silver-dark !default; //used for default and focus states
+$color-action-focus: $color-silver !default; //used for default and focus states
 $color-action-hover: $color-silver-darker !default;
 $color-action-active: $color-silver-darkest !default;
-$color-action-disabled: $color-silver-darkest !default;
+$color-action-disabled: $color-silver-dark !default;
 
-$color-action-primary: $color-aqua !default; //used for primary default and focus states
-$color-action-primary-hover: $color-aqua-dark !default;
+$color-action-primary: $color-aqua-dark !default; //used for primary default and focus states
+$color-action-primary-focus: $color-aqua-dark !default; //used for primary default and focus states
+$color-action-primary-hover: $color-aqua-darker !default;
 $color-action-primary-active: $color-aqua-darkest !default;
-$color-action-primary-disabled: $color-silver-darkest !default;
+$color-action-primary-disabled: $color-silver-dark !default;
 
 $color-action-positive: $color-fern !default; //used for positive default and focus states
+$color-action-positive-focus: $color-fern !default; //used for positive default and focus states
 $color-action-positive-hover: $color-fern-darker !default;
 $color-action-positive-active: $color-fern-darkest !default;
-$color-action-positive-disabled: $color-silver-darkest !default;
+$color-action-positive-disabled: $color-silver-dark !default;
 
 $color-action-negative: $color-salmon !default; //used for negative default and focus states
+$color-action-negative-focus: $color-salmon !default; //used for negative default and focus states
 $color-action-negative-hover: $color-salmon-darker !default;
 $color-action-negative-active: $color-salmon-darkest !default;
-$color-action-negative-disabled: $color-silver-darkest !default;
+$color-action-negative-disabled: $color-silver-dark !default;

@@ -8,7 +8,7 @@
 $component-clickable-background-color: $color-action !default;
 $component-clickable-text-color:  $color-text-primary !default;
 
-$component-clickable-background-color-focus: $color-action !default;
+$component-clickable-background-color-focus: $color-action-focus !default;
 $component-clickable-text-color-focus:  $color-text-primary !default;
 
 $component-clickable-background-color-hover: $color-action-hover !default;
@@ -24,6 +24,9 @@ $component-clickable-text-color-disabled: $color-text-disabled !default;
 $component-clickable-primary-background-color: $color-action-primary !default;
 $component-clickable-primary-text-color:  $color-text-primary !default;
 
+$component-clickable-primary-background-color-focus: $color-action-primary-focus !default;
+$component-clickable-primary-text-color-focus:  $color-text-primary !default;
+
 $component-clickable-primary-background-color-hover: $color-action-primary-hover !default;
 $component-clickable-primary-text-color-hover: $color-text-primary !default;
 
@@ -37,6 +40,9 @@ $component-clickable-primary-text-color-disabled: $color-text-disabled !default;
 $component-clickable-positive-background-color: $color-action-positive !default;
 $component-clickable-positive-text-color:  $color-text-primary !default;
 
+$component-clickable-positive-background-color-focus: $color-action-positive-focus !default;
+$component-clickable-positive-text-color-focus:  $color-text-primary !default;
+
 $component-clickable-positive-background-color-hover: $color-action-positive-hover !default;
 $component-clickable-positive-text-color-hover: $color-text-primary !default;
 
@@ -49,6 +55,9 @@ $component-clickable-positive-text-color-disabled: $color-text-disabled !default
 // >>>>>>>>> Negative Clickables
 $component-clickable-negative-background-color: $color-action-negative !default;
 $component-clickable-negative-text-color:  $color-text-primary !default;
+
+$component-clickable-negative-background-color-focus: $color-action-negative-focus !default;
+$component-clickable-negative-text-color-focus:  $color-text-primary !default;
 
 $component-clickable-negative-background-color-hover: $color-action-negative-hover !default;
 $component-clickable-negative-text-color-hover: $color-text-primary !default;
