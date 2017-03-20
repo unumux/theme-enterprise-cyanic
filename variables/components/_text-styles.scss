@@ -1,7 +1,9 @@
+// =============================================================================
+//      TEXT STYLES
+// =============================================================================
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      BODY TEXT
+//      TEXT STYLE PROPERTY SETS
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//
 // >>>>>>>>> Heading Text
 $text-style-heading-1: (
   family: $font-family-primary,
@@ -72,8 +74,21 @@ $text-style-content-3: (
   mobile-size: 11px,
   weight: 400
 ) !default;
-//
-// 
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      TEXT STYLE VARIABLES
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>> Text Colors
 $component-body-text-color: $color-text-primary !default;
+$component-body-text-color-secondary: $color-text-secondary !default;
 $component-body-text-color-inverse: $color-text-inverse !default;
+$component-body-text-color-disabled: $color-text-disabled !default;
+
+// >>>>>>>>> Default Text Style Property Set
 $component-body-style-default: $text-style-content-1 !default;
+
+// >>>>>>>>> Highlighted Text 
+$component-body-text-highlight-color: $color-text-highlighted-background !default;
+
+// >>>>>>>>> Monospace Text
+$component-body-text-monospace: $font-family-monospace !default;
