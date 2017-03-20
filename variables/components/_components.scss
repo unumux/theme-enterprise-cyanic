@@ -12,20 +12,13 @@
 //
 // >>>>>>>>> Default Overlay
 $component-overlay-background-color: rgba($color-background-secondary, 0.5) !default;
-
+//
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      DISABLED CURSOR
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //
-$component-cursor-disabled: not-allowed; //is this helpful?
-
-
-
-
-
-
-
-
+$component-cursor-disabled: not-allowed !default; //is this helpful?
+//
 
 
 
