@@ -1,7 +1,7 @@
 {
-  "name": "@unumux/theme-enterprise-cyano",
+  "name": "@unumux/theme-enterprise-default",
   "version": "1.0.0",
-  "description": "the cyano theme with enterprise fonts",
+  "description": "the default theme with enterprise fonts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
