@@ -44,6 +44,20 @@ $icon-close-inverse: (
     width: 44px
 );
 
+$icon-close-small: (
+    icon: url("#{$icons-folder}/close-small.svg"),
+    height: 44px,
+    margin: 10px,
+    width: 44px
+);
+
+$icon-close-small-inverse: (
+    icon: url("#{$icons-folder}/close-small-inverse.svg"),
+    height: 44px,
+    margin: 10px,
+    width: 44px
+);
+
 $icon-info: (
     icon: url("#{$icons-folder}/info.svg"),
     height: 26px,
