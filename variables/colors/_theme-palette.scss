@@ -2,20 +2,12 @@
 //      THEME PALATTE
 //      theme specific variables set to descriptive color variables
 // =============================================================================
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      Initial Priorities
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// $color-primary: TBD;
-// $color-secondary: TBD;
-$color-accent: $color-aqua !default;
-// $color-base: TBD;
-
-
+//
 //-primary : denotes the be most used variable in it's category - background-primary is the most used background color.
 //-secondary : denotes a variable that is an alternative to the primary category in it's category.  Categories with secondary vars are required to have primary vars.
 //-em : denotes a variable that will set a component apart from a primary (and possible seondary) color.
 //-inverse : denotes a variable that is the opposite of the primary color.
-
+//
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Background Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -26,29 +18,27 @@ $color-background-em: $color-silver-dark !default;
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Text Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// Text
 $color-text-primary: $color-white !default;
 $color-text-secondary: $color-silver !default; //used for specialized inlines like code, inline quotes, small
 $color-text-inverse: $color-silver-black !default; //used for highlighted text, and text on the alert/feedback colors
 $color-text-disabled: $color-silver-white !default;
 $color-text-highlighted-background: $color-aqua !default; //added for <mark>/highlighted inline content
 
-// Links
+// >>>>>>>>> Links
 $color-link: $color-aqua !default;
 $color-link-hover: $color-aqua !default;
 $color-link-active: red !default;
 $color-link-visited: red !default;
 
+// $color-link: $color-aqua !default;
+// $color-link-hover: $color-silver-white !default;
+// $color-link-active: $color-silver !default;
+// $color-link-visited: $color-aqua !default;
+
 $color-link-inverse: $color-white !default;
-$color-link-inverse-background: $color-aqua-darker !default;
-
 $color-link-inverse-hover: $color-white !default;
-$color-link-inverse-hover-background: $color-silver-darker !default;
-
 $color-link-inverse-active: $color-white !default;
-$color-link-inverse-active-background: $color-silver-darkest !default;
-
-$color-link-inverse-visited: tbd !default;
+$color-link-inverse-visited: $color-white !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Border/Divider Specific
@@ -56,7 +46,7 @@ $color-link-inverse-visited: tbd !default;
 $color-border-primary: $color-silver-darkest !default;
 $color-border-inverse: $color-white !default;
 $color-border-secondary: $color-aqua !default;
-//$color-border-disabled: $color-ash !default;
+$color-border-disabled: red !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Feedback Specific
