@@ -31,19 +31,16 @@ $color-link-active: red !default;
 $color-link-visited: red !default;
 $color-link-inverse: $color-white !default;
 $color-link-inverse-hover: $color-white !default;
-$color-link-inverse-active: red !default;
+$color-link-inverse-active: $color-white !default;
 $color-link-inverse-visited: red !default;
 
-$color-link-inverse-background: $color-aqua-darker !default;
-$color-link-inverse-hover-background: $color-silver-darker !default;
-$color-link-inverse-active-background: $color-silver-darkest !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Border/Divider Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $color-border-primary: $color-silver-darkest !default;
 $color-border-inverse: $color-white !default;
 $color-border-secondary: $color-aqua !default;
-//$color-border-disabled: $color-ash !default;
+$color-border-disabled: red !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Feedback Specific

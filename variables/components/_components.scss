@@ -24,6 +24,14 @@ $component-body-background-color-secondary: $color-background-secondary !default
 $component-body-background-color-em: $color-background-em !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      BORDER COLORS
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$component-border-color: $color-border-primary !default;
+$component-border-color-inverse: $color-border-inverse !default;
+$component-border-color-secondary: $color-border-secondary !default;
+$component-border-color-disabled: $color-border-disabled !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      BODY LINKS
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $component-link-color: $color-link !default;
@@ -36,7 +44,9 @@ $component-link-color-inverse-hover: $color-link-inverse-hover !default;
 $component-link-color-inverse-active: $color-link-inverse-active !default;
 $component-link-color-inverse-visited: $color-link-inverse-visited !default;
 
-
+$component-link-highlight-color: $color-action-primary-active !default;
+$component-link-highlight-color-hover: $color-action-hover !default;
+$component-link-highlight-color-active: $color-action-active !default;
 
 
 // NOTES
