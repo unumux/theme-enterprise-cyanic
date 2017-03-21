@@ -8,7 +8,11 @@
 $text-style-heading-1: (
   family: $font-family-primary,
   desktop-size: 34px,
+  desktop-line-height: 2rem,
+  desktop-margin-bottom: 1rem,
   mobile-size: 28px,
+  mobile-line-height: 2rem,
+  mobile-margin-bottom: 1rem,
   weight: 600,
   transform: uppercase
 ) !default;
@@ -56,8 +60,12 @@ $text-style-heading-6: (
 // >>>>>>>>> Standard Content Text
 $text-style-content-1: (
   family: $font-family-primary,
-  desktop-size: 16px,
-  mobile-size: 16px,
+  desktop-size: 0.75rem,
+  desktop-line-height: 1rem,
+  desktop-margin-bottom: 1rem,
+  mobile-size: 0.75rem,
+  mobile-line-height: 1rem,
+  mobile-margin-bottom: 1rem,
   weight: 400
 ) !default;
 
