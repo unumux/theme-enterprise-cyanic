@@ -15,3 +15,7 @@ $breakpoints: (
     medium: 828px,
     large: 1230px
 );
+
+
+// Applied to html element, which makes 1rem equal to 24px
+$base-size: 24px;
