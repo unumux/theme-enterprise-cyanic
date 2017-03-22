@@ -1,11 +1,11 @@
 // VARIABLES FOR SIZING COMPONENTS AND COMPONENT PARTS
 
 // Borders
-$component-border-radius: 4px;
-$component-border-radius-small: 3px;
-$component-border-radius-large: 5px;
+$component-border-radius: 4px !default;
+$component-border-radius-small: 3px !default;
+$component-border-radius-large: 5px !default;
 
-$component-border-width: 1px;
+$component-border-width: 1px !default;
 
 
 // For media queries
@@ -14,8 +14,8 @@ $breakpoints: (
     small: 350px,
     medium: 828px,
     large: 1230px
-);
+) !default;
 
-$base-size: 12px;
+$base-size: 12px !default;
 
-$base-content-max-width: 1170px;
+$base-content-max-width: 1170px !default;
