@@ -4,6 +4,7 @@
 @import "text-styles";
 @import "clickable";
 @import "panel";
+@import "primary-nav";
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      OVERLAY
@@ -47,6 +48,35 @@ $component-link-color-inverse-visited: $color-link-inverse-visited !default;
 $component-link-highlight-color: $color-action-primary-active !default;
 $component-link-highlight-color-hover: $color-action-hover !default;
 $component-link-highlight-color-active: $color-action-active !default;
+
+
+
+
+
+
+
+
+
+
+
+// $component-navigation-link-color: $color-link-inverse !default;
+// $component-navigation-link-color-hover: $color-link-inverse !default;
+// $component-navigation-link-color-active: $color-link-inverse !default;
+// $component-navigation-link-color-visited: $color-link-inverse !default;
+
+// $component-navigation-link-background-color: tbd;
+// $component-navigation-link-background-color-hover: $color-action-hover !default;
+// $component-navigation-link-background-color-active: $color-action-active !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      SPECIAL STATE LINKS
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// highlighted links meaning they have a background color in their hover and active states
+// primary navigation links
+// secondary navigation links
+// probably tabs in the future
+// not footer nav or breadcrumbs nav or utility nav (secondary nav in page header)
+
 
 
 // NOTES

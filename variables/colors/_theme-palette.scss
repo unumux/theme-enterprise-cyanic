@@ -3,6 +3,83 @@
 //      theme specific variables set to descriptive color variables
 // =============================================================================
 //
+$theme-white: $color-white !default;
+$theme-black: $color-black !default;
+
+$theme-base: $color-silver-blue !default;
+$theme-base-2: $color-silver-dark !default;
+$theme-base-3: $color-silver-darker !default;
+$theme-base-4: $color-silver-darkest !default;
+
+$theme-primary: $color-silver-dark !default;
+$theme-primary-2: $color-silver-darker !default;
+$theme-primary-3: $color-silver-darkest !default;
+$theme-primary-4: $color-silver-black !default;
+
+$theme-accent: $color-aqua !default;
+$theme-accent-2: $color-aqua-dark !default;
+$theme-accent-3: $color-aqua-darker !default;
+$theme-accent-4: $color-aqua-darkest !default;
+
+//apply these directly to panel component variables
+$theme-feedback: $color-sky-lightest !default;
+$theme-feedback-positive: $color-fern-lightest !default;
+$theme-feedback-warning: $color-mango-lightest !default;
+$theme-feedback-negative: $color-salmon-lightest !default;
+
+//apply these to clickable component variables that already exists and to primary nav (or other component) specific variables
+$theme-action: $color-silver-dark !default; //used for default and focus states
+$theme-action-2: $color-silver-darker !default; //used for default and focus states
+$theme-action-3: $color-silver-darkest !default;
+
+$theme-action-primary: $color-aqua-dark !default; //used for primary default and focus states
+$theme-action-primary-2: $color-aqua-darker !default; //used for primary default and focus states
+$theme-action-primary-3: $color-aqua-darkest !default;
+
+$theme-action-positive: $color-fern !default; //used for positive default and focus states
+$theme-action-positive-2: $color-fern-darker !default; //used for positive default and focus states
+$theme-action-positive-3: $color-fern-darkest !default;
+
+$theme-action-negative: $color-salmon !default; //used for negative default and focus states
+$theme-action-negative-2: $color-salmon-darker !default; //used for negative default and focus states
+$theme-action-negative-3: $color-salmon-darkest !default;
+
+//make a component-text variables and apply these - use those in components ($component-highlighted-text too)
+$theme-text-primary: $color-white !default;
+$theme-text-secondary: $color-silver !default; //used for specialized inlines like code, inline quotes, small
+$theme-text-inverse: $color-silver-black !default; //used for highlighted text, and text on the alert/feedback colors
+$theme-text-disabled: $color-steel !default;
+
+//to make into component vars
+//
+
+$component-border-color: $theme-primary-3 !default;
+$component-border-color-inverse: $theme-white !default;
+$component-border-color-secondary: $theme-accent !default;
+$component-border-color-disabled: $theme-primary !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      Feedback Specific
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$color-feedback: $color-sky-lightest !default;
+$color-feedback-positive: $color-fern-lightest !default;
+$color-feedback-warning: $color-mango-lightest !default;
+$color-feedback-negative: $color-salmon-lightest !default;
+
+
+
 //-primary : denotes the be most used variable in it's category - background-primary is the most used background color.
 //-secondary : denotes a variable that is an alternative to the primary category in it's category.  Categories with secondary vars are required to have primary vars.
 //-em : denotes a variable that will set a component apart from a primary (and possible seondary) color.
@@ -22,6 +99,7 @@ $color-text-primary: $color-white !default;
 $color-text-secondary: $color-silver !default; //used for specialized inlines like code, inline quotes, small
 $color-text-inverse: $color-silver-black !default; //used for highlighted text, and text on the alert/feedback colors
 $color-text-disabled: $color-steel !default;
+
 $color-text-highlighted-background: $color-aqua !default; //added for <mark>/highlighted inline content
 
 // >>>>>>>>> Links
@@ -35,6 +113,9 @@ $color-link-inverse-hover: $color-steel !default;
 $color-link-inverse-active: $color-steel !default;
 $color-link-inverse-visited: $color-white !default;
 
+
+
+
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Border/Divider Specific
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -43,13 +124,6 @@ $color-border-inverse: $color-white !default;
 $color-border-secondary: $color-aqua !default;
 $color-border-disabled: red !default;
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      Feedback Specific
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$color-feedback: $color-sky-lightest !default;
-$color-feedback-positive: $color-fern-lightest !default;
-$color-feedback-warning: $color-mango-lightest !default;
-$color-feedback-negative: $color-salmon-lightest !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      Action Specific
