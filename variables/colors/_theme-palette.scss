@@ -26,18 +26,13 @@ $color-text-highlighted-background: $color-aqua !default; //added for <mark>/hig
 
 // >>>>>>>>> Links
 $color-link: $color-aqua !default;
-$color-link-hover: $color-aqua !default;
-$color-link-active: red !default;
-$color-link-visited: red !default;
-
-// $color-link: $color-aqua !default;
-// $color-link-hover: $color-silver-white !default;
-// $color-link-active: $color-silver !default;
-// $color-link-visited: $color-aqua !default;
+$color-link-hover: $color-silver !default;
+$color-link-active: $color-steel !default;
+$color-link-visited: $color-aqua !default;
 
 $color-link-inverse: $color-white !default;
-$color-link-inverse-hover: $color-white !default;
-$color-link-inverse-active: $color-white !default;
+$color-link-inverse-hover: $color-steel !default;
+$color-link-inverse-active: $color-steel !default;
 $color-link-inverse-visited: $color-white !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
