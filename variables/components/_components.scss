@@ -5,6 +5,12 @@
 @import "clickable";
 @import "panel";
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      OVERLAY
+//      used by modals and dialogs... and more things in the future
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$component-overlay-background-color: rgba($color-background-secondary, 0.8) !default;
+
 // --- Trying something new
 
 @import "banner";
@@ -29,11 +35,6 @@
 @import "summary";
 
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      OVERLAY
-//      used by modals and dialogs... and more things in the future
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-overlay-background-color: rgba($color-background-secondary, 0.8) !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      DISABLED CURSOR
