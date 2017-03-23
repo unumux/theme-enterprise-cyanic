@@ -1,32 +1,17 @@
 // =============================================================================
 //      COMPONENTS
 // =============================================================================
+//Import maps
 @import "text-styles";
-@import "clickable";
-@import "panel";
+@import "icons";
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      OVERLAY
-//      used by modals and dialogs... and more things in the future
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-overlay-background-color: rgba($theme-primary-4, 0.8) !default;
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      DISABLED CURSOR
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-cursor-disabled: not-allowed !default; //is this helpful?
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      COMPONENT BACKGROUNDS
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-body-background-color: $theme-base !default;
-$component-body-background-color-secondary: $theme-primary-4 !default;
-$component-body-background-color-em: theme-primary-2 !default;
-
-
+//Import Base Variables
+@import "base";
 
 // --- Trying something new
-
+// Import Component Specific Variables
+@import "clickable";
+@import "panel";
 @import "banner";
 @import "breadcrumbs";
 @import "button";
@@ -47,84 +32,3 @@ $component-body-background-color-em: theme-primary-2 !default;
 @import "skip-nav";
 @import "styling-context";
 @import "summary";
-
-
-
-
-// // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// //      BODY LINKS
-// // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// $component-link-color: $color-link !default;
-// $component-link-color-hover: $color-link-hover !default;
-// $component-link-color-active: $color-link-active !default;
-// $component-link-color-visited: $color-link-visited !default;
-
-// $component-link-color-inverse: $color-link-inverse !default;
-// $component-link-color-inverse-hover: $color-link-inverse-hover !default;
-// $component-link-color-inverse-active: $color-link-inverse-active !default;
-// $component-link-color-inverse-visited: $color-link-inverse-visited !default;
-
-// $component-link-highlight-color: $color-action-primary-active !default;
-// $component-link-highlight-color-hover: $color-action-hover !default;
-// $component-link-highlight-color-active: $color-action-active !default;
-
-
-
-
-
-
-
-
-
-
-
-// $component-navigation-link-color: $color-link-inverse !default;
-// $component-navigation-link-color-hover: $color-link-inverse !default;
-// $component-navigation-link-color-active: $color-link-inverse !default;
-// $component-navigation-link-color-visited: $color-link-inverse !default;
-
-// $component-navigation-link-background-color: tbd;
-// $component-navigation-link-background-color-hover: $color-action-hover !default;
-// $component-navigation-link-background-color-active: $color-action-active !default;
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      SPECIAL STATE LINKS
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// highlighted links meaning they have a background color in their hover and active states
-// primary navigation links
-// secondary navigation links
-// probably tabs in the future
-// not footer nav or breadcrumbs nav or utility nav (secondary nav in page header)
-
-
-
-// NOTES
-// generic component name options
-// panel
-// box
-// pop-up
-// overlay
-
-// page-header/footer, persistent, expected, standard, global, reoccuring, consistent 
-
-// types: primary, secondary, postive, negative, disabled, em, inverse
-// states: default, hover, active, visited
-
-// do we need wide prioritizing variables
-// $component-primary-background-color
-// $component-secondary-background-color
-// $component-em-background-color
-
-//From JQUERY Theme Roller
-// font settings : family, weight, size(em)
-// corner radius : corners(px)
-// header/toolbar : background color, background texture, border color, text color, icon color
-// content : background color, background texture, border color, text color, icon color
-// clickable default state: background color, background texture, border color, text color, icon color
-// clickable hover state: background color, background texture, border color, text color, icon color
-// clickable active state: background color, background texture, border color, text color, icon color
-// highlight : background color, background texture, border color, text color, icon color
-// error: background color, background texture, border color, text color, icon color
-// modal screen for overlays : background color, background texture, overlay opacity
-// drop shadows : background color, background texture, shadow opacity, shadow thickness, top offset, left offset, corners(px)
-// background color - either white or reverse 
