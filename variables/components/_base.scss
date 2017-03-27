@@ -9,9 +9,7 @@ $component-overlay-background-color: rgba($theme-primary-4, 0.8) !default;
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $component-cursor-disabled: not-allowed !default; //is this helpful?
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      COMPONENT BACKGROUNDS
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 $component-body-background-color: $theme-base !default;
 $component-body-background-color-secondary: $theme-primary-4 !default;
 $component-body-background-color-em: theme-primary !default;
@@ -20,6 +18,11 @@ $component-border-color: $theme-primary-3 !default;
 $component-border-color-inverse: $theme-white !default;
 $component-border-color-secondary: $theme-accent !default;
 $component-border-color-disabled: $theme-primary !default;
+
+$component-body-text-color: $theme-text-primary !default;
+$component-body-text-color-secondary: $theme-text-secondary !default;
+$component-body-text-color-inverse: $theme-text-inverse !default;
+$component-body-text-color-disabled: $theme-text-tertiary !default;
 
 $component-link-color: $theme-accent !default;
 $component-link-color-hover: $theme-text-secondary !default;
@@ -33,23 +36,15 @@ $component-link-color-inverse-focus: $theme-text-primary !default;
 $component-link-color-inverse-active: $theme-text-tertiary !default;
 $component-link-color-inverse-visited: $theme-text-primary !default;
 
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      TEXT STYLE VARIABLES
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//>>>>>>>>> Text Colors
-$component-body-text-color: $theme-text-primary !default;
-$component-body-text-color-secondary: $theme-text-secondary !default;
-$component-body-text-color-inverse: $theme-text-inverse !default;
-$component-body-text-color-disabled: $theme-text-tertiary !default;
 
 // >>>>>>>>> Default Text Style Property Set
 $component-body-style-default: $text-style-content-1 !default;
 
-// >>>>>>>>> Highlighted Text 
-$component-highlighted-text-background-color: $theme-accent !default;
-
 // >>>>>>>>> Monospace Text
 $component-body-text-monospace: $font-family-monospace !default;
+
+// >>>>>>>>> Highlighted Text 
+$component-highlighted-text-background-color: $theme-accent !default;
 
 // VARIABLES FOR SIZING COMPONENTS AND COMPONENT PARTS
 
@@ -64,7 +59,8 @@ $component-border-width: 1px !default;
 // For media queries
 // content width plus gutters on each side
 $breakpoints: (
-    small: 350px,
+    extra-small: 350px,
+    small: 600px,
     medium: 828px,
     large: 1230px
 ) !default;
