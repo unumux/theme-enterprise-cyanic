@@ -1,0 +1,62 @@
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      OVERLAY
+//      used by modals and dialogs... and more things in the future
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$component-overlay-background-color: rgba($theme-primary-4, 0.8) !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      DISABLED CURSOR
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+$component-cursor-disabled: not-allowed !default; //is this helpful?
+
+$component-body-background-color: $theme-base !default;
+$component-body-background-color-secondary: $theme-primary-4 !default;
+$component-body-background-color-em: $theme-primary !default;
+
+$component-border-color: $theme-primary-3 !default;
+$component-border-color-inverse: $theme-white !default;
+$component-border-color-secondary: $theme-accent !default;
+$component-border-color-disabled: $theme-primary !default;
+
+$component-body-text-color: $theme-text-primary !default;
+$component-body-text-color-secondary: $theme-text-secondary !default;
+$component-body-text-color-inverse: $theme-text-inverse !default;
+$component-body-text-color-disabled: $theme-text-tertiary !default;
+
+$component-blockquote-text-color: $component-body-text-color-secondary !default;
+$component-blockquote-font-weight: 400 !default;
+$component-blockquote-border-color: $theme-text-secondary !default;
+
+$component-link-color: $theme-accent !default;
+$component-link-color-hover: $theme-text-secondary !default;
+$component-link-color-focus: $theme-accent !default;
+$component-link-color-active: $theme-text-tertiary !default;
+$component-link-color-visited: $theme-accent !default;
+
+$component-link-color-inverse: $theme-text-primary !default;
+$component-link-color-inverse-hover: $theme-text-tertiary !default;
+$component-link-color-inverse-focus: $theme-text-primary !default;
+$component-link-color-inverse-active: $theme-text-tertiary !default;
+$component-link-color-inverse-visited: $theme-text-primary !default;
+
+// >>>>>>>>> Default Text Style Property Set
+$component-body-style-default: $text-style-content-1 !default;
+
+// >>>>>>>>> Monospace Text
+$component-body-text-monospace: $font-family-monospace !default;
+
+// >>>>>>>>> Highlighted Text 
+$component-highlighted-text-background-color: $theme-accent !default;
+
+// VARIABLES FOR SIZING COMPONENTS AND COMPONENT PARTS
+
+// Borders
+$component-border-radius: 4px !default;
+$component-border-radius-small: 3px !default;
+$component-border-radius-large: 5px !default;
+
+$component-border-width: 1px !default;
+
+$base-size: 12px !default;
+
+$content-max-width: 1170px !default;
