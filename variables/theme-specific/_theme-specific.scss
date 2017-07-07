@@ -47,8 +47,11 @@ $theme-action-negative: $color-salmon !default; //used for negative default and 
 $theme-action-negative-2: $color-salmon-darker !default; //used for negative default and focus states
 $theme-action-negative-3: $color-salmon-darkest !default;
 
+$theme-action-disabled: $color-silver-dark !default;
+
 //TEXT COLORS
 $theme-text-primary: $color-white !default;
 $theme-text-inverse: $color-silver-black !default; //used for highlighted text, and text on the alert/feedback colors
 $theme-text-secondary: $color-silver !default; //used for specialized inlines like code, inline quotes, small
 $theme-text-tertiary: $color-steel !default;
+$theme-text-monospace: $color-white !default;
